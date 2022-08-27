@@ -4,10 +4,10 @@ library(prophet)
 
 
 # e.g. ds : date and y: Facebook CPM to see seasonality, prices on Black Friday etc
-df <- read.csv('/Users/christos/Downloads/PropherSampleData.csv')
+df <- read.csv('')
 
 # Dataframe must have columns 'ds' and 'y' with the dates and values respectively.
-colnames(df) <- c("ds","y", "ds1", "ds2")
+colnames(df) <- c("ds","y")
 
 ##################
 # Without holidays
